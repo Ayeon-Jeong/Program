@@ -5,6 +5,17 @@ import java.util.*;
 //
 public class Sol {
 
+    public String src;
+    public String dst;
+
+    public Sol(String src, String dst) {
+        this.src = src;
+        this.dst = dst;
+    }
+
+    public Sol() {
+    }
+
     public String solution(String[] participant, String[] completion){
         String answer = "";
 
@@ -17,6 +28,8 @@ public class Sol {
         }
 
         return answer;
+
+
     }
 
 

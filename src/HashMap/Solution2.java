@@ -3,12 +3,12 @@ package HashMap;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Solution2 {
 
 
     public static void main(String[] args) {
-
 
         String[] phone = { "119", "97674223", "1195524421", "1" };
 
