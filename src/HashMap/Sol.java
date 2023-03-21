@@ -41,5 +41,12 @@ public class Sol {
         System.out.println(new Sol().solution(participant, completion));
 
 //        System.out.println("Hello");
+
+        Map<String, Integer> m = new HashMap<>();
+        m.put("A", 2);
+        m.put("B", 3);
+        m.put("C", 3);
+
+        System.out.println(Collections.max(m.values()));
     }
 }
